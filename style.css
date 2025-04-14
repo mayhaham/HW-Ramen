@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  padding: 25px;
+  padding: 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -55,16 +55,17 @@ section[id] {
 .hero-section {
   height: 100vh;
   position: relative;
-  background-image: url("ramen-project/image/IMG_Hero_Section.jpg");
+  background-image: url("../image/IMG_Hero_Section.jpg");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
 }
 
 .history-section {
-  background-image: url("ramen-project/image/IMG_HISTORY_BACLGRUOND.png");
+  background-image: url("../image/IMG_HISTORY_BACLGRUOND.png");
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
+
 
 .history-section .row {
   display: flex;
@@ -89,8 +90,9 @@ section[id] {
 }
 
 .recipes-section {
-  background-image: url("ramen-project/image/IMG_MATKONIM.png");
+  background-image: url("../image/IMG_MATKONIM.png");
 }
+
 
 .recipe-item {
   margin-bottom: 30px;
@@ -134,7 +136,7 @@ section[id] {
 
 .review-content {
   padding: 16px;
-  text-align: right;
+  text-align: center;
 }
 
 .review-quote {
@@ -152,8 +154,9 @@ section[id] {
 }
 
 .types-section {
-  background-image: url("ramen-project/image/IMG_types-section.jpg");
+  background-image: url("../image/IMG_types-section.jpg");
 }
+
 
 .cards-container {
   display: flex;
@@ -213,7 +216,7 @@ section[id] {
 footer {
   background-size: cover;
   position: relative;
-  background-image: url("ramen-project/image/footer-background.jpg");
+  background-image: url("../image/footer-background.jpg");
   color: white;
   padding: 32px 0;
   margin-top: 20px;
