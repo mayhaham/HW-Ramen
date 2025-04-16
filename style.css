@@ -93,7 +93,6 @@ section[id] {
   background-image: url("./image/IMG_MATKONIM.png");
 }
 
-
 .recipe-item {
   margin-bottom: 30px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -156,7 +155,6 @@ section[id] {
 .types-section {
   background-image: url("./image/IMG_types-section.jpg");
 }
-
 
 .cards-container {
   display: flex;
